@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<main>
+    <form action="action.php">
+    <input type="text" placeholder="Write Here Something"/> <br> <br>
+    <input type="text" placeholder="Username"/> <br> <br>
+    <input type="password" placeholder="password"/> <br> <br>
+
+    <input type="radio" value="Class XI" name="Class"/> Class XI
+    <label for="102"> <!-- Selected if Clicked on Class XII Also -->
+    <input type="radio" value="Class XII" name="Class" id="102"/> Class XII
+    </label>
+    </form>
+
+    <!-- Div Class & Id -->
+    <div id="div1" class="grp1">
+        <h2> this is div 1 </h2>
+    </div>
+    <div id="div2" class="grp2">
+        <h2> this is div 2 </h2>
+    </div>
+    <h5>Select Your Subject </h5>
+    <label for="11">
+    <input type="checkbox" value="Math" name="Subject" id="11"> Math
+    </label>
+    <label for="12">
+        <input type="checkbox" value="Physics" name="Subject" id="12"> Physics
+    </label>
+    <label for="13">
+        <input type="checkbox" value="Computer Science" name="Subject" id="13" > Computer Science
+    </label>
+    <br>
+
+    <textarea name="feedback" id="111" placeholder="Give Your Feedback" rows="4" cols="30">Hii there</textarea>
+    <br>  Select Your Village - 
+    <select name="City" >
+        <option value="Bajpatti">Bajpatti</option>
+        <option value="Sandhwara">Sandhwara</option>
+        <option value="Bangaon">Bangaon</option>
+        <option value="Awapur">Awapur</option>
+        <option value="Bakhri">Bakhri</option>
+    </select>
+    <br> <br> <br>
+    <button type="submit" >Submit</button>
+    <button type="reset" > Reset</button>
+
+</main>
+</body>
+</html>
